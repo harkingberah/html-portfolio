@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HomePage</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- navigation
+
+  navigation ends -->
+<!-- <nav>
+    <div class="navigation">
+        <img src="/img/images/dove logo.png" alt="">
+        <ul>
+            <i id="menu-close" class="fa fa-times"></i>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li>
+                <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">Courses</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Link 1</a></li>
+                    <li><a class="dropdown-item" href="#">Link 2</a></li>
+                    <li><a class="dropdown-item" href="#">Link 3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#" class="btn btn-outline-primary bg-text-primary">Start Learning</a></li>
+        </ul>
+        <img src="/img/images/dropdown menu.png" alt="" id="menu-btn">
+    </div>
+</nav> -->
+
+  <nav class="navbar navbar-expand-lg ">
+  <div class="container">
+    <a class="navbar-brand" href="#"> <img src="/img/images/dove logo.png" alt="" height="70px" width="80px" ></a> 
+    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
+        <li class="nav-item">
+          <a class="nav-link current" aria-current="page" href="#">Home</a>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="/course.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Courses
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item text-capitalize" href="/course.html">Game Development</a></li>
+            <li><a class="dropdown-item text-capitalize" href="/course.html">App Development</a></li>
+            <li><a class="dropdown-item text-capitalize" href="/course.html">Web Design </a></li>
+
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Lesson Plans
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item text-capitalize" href="#">Self Paced</a></li>
+                <li><a class="dropdown-item text-capitalize" href="#">Personal Tutoring-virtual and physical</a></li>
+                <li><a class="dropdown-item text-capitalize" href="#">physical training </a></li>
+                <li><a class="dropdown-item text-capitalize" href="#">Train the trainer</a></li>
+            </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/about.html">About</a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Contact</a>
+        </li>
+      </ul>
+      <a href="#" class="btn btn-outline-primary bg-text-primary">Start Learning</a>
+    </div>
+  </div>
+</nav>
+  <!-- home section -->
+
+  <div id="home">
+    <h2>Enhance your future with DoveCode!</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ratione sapiente incidunt doloremque magni assumenda ipsam dolorum hic eaque minus!</p>
+    <div class="btn">
+        <a class="blue" href="#">Learn More</a>
+        <a class="yellow" href="#">Visit Courses</a>
+    </div>
+  </div>
+
+  <!-- feature section -->
+
+    <div id="features">
+        <h1>Lesson Plans</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, quam.</p>
+        <!-- let's create a card -->
+        <div class="fea-base">
+            <div class="fea-box">
+                <a href=""><i class="fa fa-clock-o"></i></a>
+                <h3>Self-Paced Plan</h3>
+                <p>Flexibility to learn at own pace with self-paced courses.</p>
+            </div>
+            <div class="fea-box">
+                <a href=""><i class="fa fa-handshake-o"></i></a>
+                <h3>One on One virtual training</h3>
+                <p>Flexibility to learn at own pace with self-paced courses.</p>
+
+                <!-- <i class="fa fa-group"></i> -->
+            </div>
+            <div class="fea-box">
+                <a href=""><i class="fa fa-laptop"></i></a>
+                <h3>physical training</h3>
+                <p>Flexibility to learn at own pace with self-paced courses.</p>
+            </div>
+            <div class="fea-box">
+                <a href=""><i class="fa fa-user-plus"></i></a>
+                <h3>Train the Trainer</h3>
+                <p>Flexibility to learn at own pace with self-paced courses.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- courses -->
+
+    <div id="course">
+        <h1>Our Popular Courses</h1>
+        <p>Transform your skills and reach new heights with our online courses and Join thousands of satisfied learners and take your first step towards success</p>
+        <div class="course-box">
+            <div class="courses">
+                    <a href=""><img src="/img/images/javascript-g79908564c_1280.png" alt="" ></a>
+                    <div class="details">
+                        <span>updated 10/3/23</span>
+                        <h6>JavaScript Beginners Course</h6>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <span>(20)</span>
+                        </div>
+                    </div>
+                    <div class="cost">
+                        $49.99
+                    </div>
+            </div>
+            <div class="courses">
+                <a href=""><img src="/img/images/html and css.png" alt=""></a>
+                <div class="details">
+                    <span>updated 10/3/23</span>
+                    <h6>HTML and CSS for Beginners</h6>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <span>(20)</span>
+                    </div>
+                </div>
+                <div class="cost">
+                    $49.99
+                </div>
+            </div>
+            <div class="courses">
+                <a href=""><img src="/img/images/python images.jpg" alt=""></a>
+                <div class="details">
+                    <span>updated 10/3/23</span>
+                    <h6>Python Beginners Course</h6>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <span>(20)</span>
+                    </div>
+                </div>
+                <div class="cost">
+                    $49.99
+                </div>
+            </div>
+            <div class="courses">
+                <a href=""><img src="/img/images/roblox.jpg" alt=""></a>
+                <div class="details">
+                    <span>updated 10/3/23</span>
+                    <h6>Roblox Course for kids</h6>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <span>(20)</span>
+                    </div>
+                </div>
+                <div class="cost">
+                    $49.99
+                </div>
+            </div>
+            <div class="courses">
+                <a href=""><img src="/img/images/robotics 2.png" alt=""></a>
+
+                <div class="details">
+                    <span>updated 10/3/23</span>
+                    <h6>Robotics Course for kids</h6>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <span>(20)</span>
+                    </div>
+                </div>
+                <div class="cost">
+                    $49.99
+                </div>
+            </div>
+            <div class="courses">
+            <a href=""> <img src="/img/images/app dev.png" alt=""></a>
+                <div class="details">
+                    <span>updated 10/3/23</span>
+                    <h6>App development using Mit App inventor</h6>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <span>(20)</span>
+                    </div>
+                </div>
+                <div class="cost">
+                    $49.99
+                </div>
+            </div>
+            <div class="courses">
+                <a href=""><img src="/img/images/data science.jpg" alt=""></a>
+                <div class="details">
+                    <span>updated 10/3/23</span>
+                    <h6>Data Science Course</h6>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <span>(20)</span>
+                    </div>
+                </div>
+                <div class="cost">
+                    $49.99
+                </div>
+            </div>
+            <div class="courses">
+                <a href=""><img src="/img/images/scratch image.png" alt=""></a>
+
+                <div class="details">
+                    <span>updated 10/3/23</span>
+                    <h6>Scratch course for kids</h6>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <span>(20)</span>
+                    </div>
+                </div>
+                <div class="cost">
+                    $49.99
+                </div>
+            </div>
+            <div class="courses">
+            <a href=""> <img src="/img/images/javascript-g79908564c_1280.png" alt=""></a>
+                <div class="details">
+                    <span>updated 10/3/23</span>
+                    <h6>JavaScript Beginners Course</h6>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <span>(20)</span>
+                    </div>
+                </div>
+                <div class="cost">
+                    $49.99
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- registration -->
+
+    <div id="registration">
+        <div class="reminder">
+          <p>Get A Free Trial Class</p>
+          <h1>Register To Get It</h1>
+          <div class="time">
+            <div class="date">
+                18 <br>Days
+            </div>
+            <div class="date">
+                23 <br>Hours
+            </div>
+            <div class="date">
+                06 <br>Minutes
+            </div>
+            <div class="date">
+                18 <br>Seconds
+            </div>
+          </div>
+        </div>
+        <div class="form">
+            <h3>Create Free Account Now!</h3>
+            <input type="text" placeholder="Name" name="" Id="">
+            <input type="email" placeholder="Email Address" name="" Id="">
+            <input type="text" placeholder="Phone number" name="" Id="">
+            <div class="btn">
+                <a class="yellow" href="#">Submit Form</a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- our team profile -->
+   <div id="experts">
+    <h1>Meet The Team</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, ipsam.</p>
+    <div class="expert-box">
+        <div class="profile">
+            <img src="/img/images/avatar.png" alt="">
+            <h6>Akeju Sam</h6>
+            <p>Coding and Robotics</p>
+            <div class="pro-links">
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>
+            <a href=""><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="profile">
+            <a href=""><img src="/img/images/avatar.png" alt=""></a>
+            <h6>Akeju Sam</h6>
+            <p>Game Development Tutor</p>
+            <div class="pro-links">
+            <a href=""> <i class="fa fa-facebook"></i></a>
+            <a href=""> <i class="fa fa-instagram"></i></a>
+            <a href=""> <i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="profile">
+            <a href=""><img src="/img/images/avatar.png" alt=""></a>
+            <h6>Akeju Sam</h6>
+            <p>Python Stack Expert</p>
+            <div class="pro-links">
+            <a href=""> <i class="fa fa-facebook"></i></a>
+            <a href=""> <i class="fa fa-instagram"></i></a>
+            <a href="">  <i class="fa fa-linkedin"></i></a>
+        
+            </div>
+        </div>
+        <div class="profile">
+            <a href=""><img src="/img/images/avatar.png" alt=""></a>
+            <h6>Akeju Sam</h6>
+            <p>Full stack Developer</p>
+            <div class="pro-links">
+            <a href=""> <i class="fa fa-facebook"></i></a>
+            <a href=""> <i class="fa fa-instagram"></i></a>
+            <a href=""> <i class="fa fa-linkedin"></i></a>
+        
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <!-- footer -->
+
+   <footer>
+    <div class="footer-col">
+        <h3>Online Coding for Kids and Adult</h3>
+        <p style="font-size: 15px;" class="p-w">DoveCode teaches coding, website building, and robot programming to both children and adults, equipping them with
+        valuable skills such as problem-solving, creativity, and critical thinking for success in the digital age.</p>
+        <a href=""> <i class="fa fa-facebook"></i></a>
+        <a href=""><i class="fa fa-instagram"></i></a>
+        <a href=""><i class="fa fa-linkedin"></i></a>
+
+        <a href=""><i class="fa fa-phone"></i></a>
+    </div>
+    <div class="footer-col stop-overflow">
+        <h3>Courses</h3>
+        <a href=""><li>Scratch</li></a>
+        <a href=""><li>Web Design</li></a>
+        <a href=""> <li>Python and Data Science</li></a>
+        <a href=""><li>Scratch</li></a>
+        <a href=""><li>Game Develoment using Roblox</li></a>
+        <a href=""> <li>Robotics</li></a>
+
+    </div>
+    <div class="footer-col">
+        <h3>Quick LInks</h3>
+        <a href=""><li>Jobs</li></a>
+        <a href=""><li>Blog post</li></a>
+        <a href=""><li>Research</li></a>
+        <a href=""><li>Guides</li></a>
+        <a href=""><li>Terms of Service</li></a>
+
+    </div>
+
+    <div class="footer-col">
+        <h3>Let Us Know How we can Assist You</h3>
+        <a href=""><li>hello@dovecode.com</li></a>
+        <li>+234-070-613-2086</li>
+        <a href=""><li>Allen Avenue, Ikeja, Lagos, Nigeria</li></a>
+    </div>
+
+
+<div class="footer-col">
+        <h3>Newsletter</h3>
+        <p>"We respect your privacy and will only send you our best deals and discounts."</p>
+        <div class="subscribe">
+            <input type="text" placeholder="your Email address">
+            <a href="" class="yellow">SUBSCRIBE</a>
+        </div>
+    </div>
+    
+   </footer>
+    <div class="copyright">
+        <div class="power">
+            <p>Copyright © 2023 DoveCode All rights reserved | This template is made by DoveCode</p>
+        </div>
+        <div class="power">
+            <p>Developed by DoveCode</p>
+        </div>
+    </div>
+  
+   
+
+    <script src="/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
